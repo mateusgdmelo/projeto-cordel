@@ -1,2 +1,2 @@
 # projeto-cordel
- Projeto ddo site de poesia de cordel
+ Projeto do site de poesia de cordel
