@@ -24,7 +24,7 @@ header {
 header h1 {
     font-family: titulo;
     font-weight: normal;
-    font-size: 136px;
+    font-size: 10vw;
     color: white;
     margin: 0px;
     font-variant-caps: small-caps;
@@ -48,7 +48,7 @@ header a:hover {
 
 main p {
     font-family: texto;
-    font-size: 47px;
+    font-size: 3.8vw;
     padding: 30px;
 }
 
@@ -76,7 +76,8 @@ main section#papel {
 
 p.destaque {
     color: white;
-    width: 560px;
+    display: inline-block;
+    padding: 20px;
     background-color: #00000082;
     padding: 0px;
     margin: 30px;
