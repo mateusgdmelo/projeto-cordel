@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: titulo;
+    src: url(fonte/Passion_One/PassionOne-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: texto;
+    src: url(fonte/Sriracha/Sriracha-Regular.ttf) format('truetype');
+}
+
+body {
+    margin: auto;
+    min-width: 500px;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: titulo;
+    font-weight: normal;
+    font-size: 136px;
+    color: white;
+    margin: 0px;
+    font-variant-caps: small-caps;
+}
+
+header p {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+header a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main p {
+    font-family: texto;
+    font-size: 47px;
+    padding: 30px;
+}
+
+main section#joaninha {
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 3px 20px 0px black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+main section#papel {
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: inset 0px 3px 20px 0px black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p.destaque {
+    color: white;
+    width: 560px;
+    background-color: #00000082;
+    padding: 0px;
+    margin: 30px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    height: 70px;
+}
+
+footer p {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+footer a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
